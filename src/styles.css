@@ -13,6 +13,7 @@ h2,
 h3 {
   text-align: center;
   margin: 0;
+  font-family: "Gugi", cursive;
 }
 
 h1 {
@@ -30,7 +31,10 @@ h3 {
   line-height: 1.2;
   margin-top: 20px;
 }
-
+.main-logo {
+  display: block;
+  text-align: center;
+}
 p {
   padding: 20px;
   font-size: 18px;
