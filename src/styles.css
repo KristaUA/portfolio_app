@@ -21,10 +21,17 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 50px;
   margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  opacity: 0.95;
 }
-
+.main-logo {
+  display: block;
+  text-align: center;
+  max-width: 100%;
+}
 h2 {
   font-size: 48px;
 }
@@ -35,10 +42,7 @@ h3 {
   line-height: 1.2;
   margin-top: 20px;
 }
-.main-logo {
-  display: block;
-  text-align: center;
-}
+
 .logo {
   max-width: 90%;
   max-height: 90%;
@@ -77,70 +81,46 @@ img {
   margin-top: 20px;
 }
 
-.linkedin-button {
-  display: inline-block;
-  height: 70px;
-  margin: 0px 10px 10px 10px;
-  vertical-align: top;
-  width: 70px;
-  text-align: center;
-  background-color: #00aaa0;
-  border: none;
-  border-radius: 18px;
+.contact-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 
-.linkedin-button:hover {
-  cursor: pointer;
-  transform: scale(1.2) perspective(10px);
+.contact-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
-.instagram-button {
-  display: inline-block;
-  height: 70px;
-  margin: 0px 10px 10px 10px;
-  vertical-align: top;
-  width: 70px;
-  text-align: center;
-  color: var(--secondary-color);
-  border: none;
-  border-radius: 18px;
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
 
-.instagram-button:hover {
-  cursor: pointer;
-  transform: scale(1.2) perspective(10px);
+.linkedIn-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
-.phone-button {
-  display: inline-block;
-  height: 70px;
-  padding: 0;
-  margin: 0px 10px 10px 10px;
-  vertical-align: top;
-  width: 70px;
-  color: var(--secondary-color);
-  border: none;
-  border-radius: 18px;
+.instagram-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
-.phone-button:hover {
-  cursor: pointer;
-  transform: scale(1.2) perspective(10px);
+.phone-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.email-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
-.email-button {
-  display: inline-block;
-  height: 70px;
-  padding: 0;
-  margin: 0px 10px 10px 10px;
-  vertical-align: top;
-  width: 70px;
-  color: var(--secondary-color);
-  border: none;
-  border-radius: 18px;
-}
-
-.email-button:hover {
-  cursor: pointer;
-  transform: scale(1.2) perspective(10px);
+.fa-brands {
+  color: var(--primary-color);
 }
