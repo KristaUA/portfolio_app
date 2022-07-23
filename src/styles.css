@@ -5,9 +5,6 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --font-family-brand: "Gugi", cursive;
 }
-.page-wrapper {
-  height: 100%;
-}
 body {
   margin: 60px auto;
   background-color: var(--background-color);
@@ -20,14 +17,13 @@ h2,
 h3,
 h4 {
   text-align: center;
-  margin: 0;
   font-family: var(--font-family-brand);
 }
 
 h1 {
   font-size: 42px;
   margin-top: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   margin-left: 100px;
   opacity: 0.95;
   color: var(--secondary-color);
@@ -36,8 +32,8 @@ h1 {
 h2 {
   font-size: 26px;
   margin-left: 100px;
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 50px;
   opacity: 0.95;
   color: var(--secondary-color);
 }
@@ -51,7 +47,7 @@ h3 {
 }
 h4 {
   font-size: 38px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 100px;
   color: var(--primary-color);
 }
