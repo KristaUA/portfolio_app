@@ -39,13 +39,11 @@ h3 {
   display: block;
   text-align: center;
 }
-p {
-  padding: 20px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-  color: var(--secondary-color);
+.logo {
+  max-width: 90%;
+  max-height: 90%;
 }
+
 footer {
   color: var(--secondary-color);
   text-align: center;
@@ -59,6 +57,12 @@ img {
 
 .navbar {
   margin-left: 0px;
+}
+.navbar-custom {
+  background-color: var(--background-color);
+}
+.nav-link {
+  color: var(--primary-color);
 }
 .row {
   display: flex;
@@ -149,11 +153,4 @@ img {
 .email-button:hover {
   cursor: pointer;
   transform: scale(1.2) perspective(10px);
-}
-
-.footer {
-  text-align: center;
-  text-decoration: none;
-  font-size: 14px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
