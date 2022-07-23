@@ -7,12 +7,8 @@
 
 body {
   margin: 80px auto;
-  background-image: url("https://pixabay.com/illustrations/security-internet-crime-cyber-4700815/");
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  background-attachment: fixed;
   background-color: var(--background-color);
+  color: var(--secondary-color);
 }
 
 h1,
@@ -21,6 +17,7 @@ h3 {
   text-align: center;
   margin: 0;
   font-family: "Gugi", cursive;
+  color: var(--secondary-color);
 }
 
 h1 {
@@ -47,60 +44,19 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  color: var(--secondary-color);
 }
-
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-  margin-bottom: 40px;
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-  color: var(--primary-color);
+footer {
+  color: var(--secondary-color);
   text-align: center;
+}
+img {
   display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 10px;
 }
 
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
 .navbar {
   margin-left: 0px;
 }
@@ -113,44 +69,6 @@ p {
   font-size: 18px;
 }
 
-.project-links {
-  display: flex;
-  margin-top: 0px;
-  float: left;
-  margin-left: -20px;
-}
-
-.project-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.yoga-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-.title {
-  font-size: 48px;
-  text-decoration: solid;
-}
-.weather-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-.yogurt-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
 .container {
   margin-bottom: 20px;
   max-width: 100%;
@@ -158,26 +76,84 @@ p {
 .contact {
   margin-top: 20px;
 }
-@media (max-width: 576px) {
-  h1 {
-    font-size: 68px;
-  }
-  h2 {
-    font-size: 28px;
-  }
-  h3 {
-    font-size: 14px;
-  }
-  .image-main {
-    display: none;
-  }
-  .image-row {
-    display: none;
-  }
-  .text-row {
-    text-align: center;
-  }
-  .link-main {
-    text-align: center;
-  }
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedin-button {
+  display: inline-block;
+  height: 70px;
+  margin: 0px 10px 10px 10px;
+  vertical-align: top;
+  width: 70px;
+  text-align: center;
+  background-color: #00aaa0;
+  border: none;
+  border-radius: 18px;
+}
+
+.linkedin-button:hover {
+  cursor: pointer;
+  transform: scale(1.2) perspective(10px);
+}
+
+.instagram-button {
+  display: inline-block;
+  height: 70px;
+  margin: 0px 10px 10px 10px;
+  vertical-align: top;
+  width: 70px;
+  text-align: center;
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 18px;
+}
+
+.instagram-button:hover {
+  cursor: pointer;
+  transform: scale(1.2) perspective(10px);
+}
+
+.phone-button {
+  display: inline-block;
+  height: 70px;
+  padding: 0;
+  margin: 0px 10px 10px 10px;
+  vertical-align: top;
+  width: 70px;
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 18px;
+}
+
+.phone-button:hover {
+  cursor: pointer;
+  transform: scale(1.2) perspective(10px);
+}
+
+.email-button {
+  display: inline-block;
+  height: 70px;
+  padding: 0;
+  margin: 0px 10px 10px 10px;
+  vertical-align: top;
+  width: 70px;
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 18px;
+}
+
+.email-button:hover {
+  cursor: pointer;
+  transform: scale(1.2) perspective(10px);
+}
+
+.footer {
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
