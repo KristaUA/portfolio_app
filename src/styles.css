@@ -24,7 +24,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   text-align: center;
   font-family: var(--font-family-brand);
 }
@@ -51,9 +52,29 @@ h3 {
   color: var(--secondary-color);
   opacity: 0.95;
 }
+.h3-bigger {
+  font-size: 36px;
+  margin-top: 40px;
+  color: var(--secondary-color);
+  opacity: 0.95;
+}
 h4 {
   font-size: 24px;
   margin: 20px 0px;
+  color: var(--primary-color);
+}
+.h4-bigger {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  opacity: 0.95;
+  color: var(--primary-color);
+}
+h5 {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  opacity: 0.95;
   color: var(--primary-color);
 }
 .main-logo {
@@ -88,6 +109,43 @@ img {
   border-radius: 10px;
 }
 
+.facts-list {
+  list-style: none;
+  font-size: 18px;
+  font-family: var(--font-family-brand);
+  color: var(--secondary-color);
+  margin-bottom: 5px;
+  opacity: 0.95;
+}
+
+.fa-caret-right {
+  opacity: 0.95;
+}
+.coding-skills-bar {
+  list-style: none;
+  font-size: 18px;
+  font-family: var(--font-family-brand);
+  color: var(--secondary-color);
+  margin-bottom: 5px;
+  opacity: 0.95;
+}
+
+.courses-list {
+  list-style: none;
+  font-size: 18px;
+  font-family: var(--font-family-brand);
+  color: var(--secondary-color);
+  margin-bottom: 5px;
+  opacity: 0.95;
+}
+.technology-list {
+  list-style: none;
+  font-size: 18px;
+  font-family: var(--font-family-brand);
+  color: var(--secondary-color);
+  margin-bottom: 5px;
+  opacity: 0.95;
+}
 .navbar {
   margin-left: 0px;
 }
@@ -158,7 +216,18 @@ img {
   font-size: 28px;
   padding-left: 30px;
 }
-
+.yes-project-link {
+  box-shadow: var(--box-shadow);
+  color: var(--primary-color);
+  padding-right: 30px;
+  font-size: 28px;
+}
+.no-project-link {
+  box-shadow: var(--box-shadow);
+  color: var(--primary-color);
+  font-size: 28px;
+  padding-left: 30px;
+}
 .contact-links {
   display: flex;
   justify-content: center;
