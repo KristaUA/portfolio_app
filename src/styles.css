@@ -137,6 +137,13 @@ img {
   opacity: 0.95;
   line-height: 1.8;
 }
+.coding-skills-dots {
+  list-style: none;
+  font-size: 16px;
+  margin-bottom: 5px;
+  line-height: 1.8;
+  text-align: right;
+}
 
 .courses-list {
   list-style: none;
@@ -171,22 +178,23 @@ img {
 }
 .java-script-logo {
   display: inline;
-  margin-left: -9px;
+  margin-left: -8px;
   margin-top: -10px;
 }
 .responsive-logo {
   display: inline;
-  margin-left: -5px;
 }
 .react-logo {
   display: inline;
-  margin-left: -5px;
 }
 .up-level {
+  color: var(--background-color);
+  text-align: left;
 }
 .down-level {
   opacity: 0.5;
   margin-left: -5px;
+  text-align: left;
 }
 .navbar {
   margin-left: 0px;
