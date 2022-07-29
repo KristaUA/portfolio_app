@@ -169,6 +169,25 @@ img {
   opacity: 0.9;
   margin-top: 20px;
 }
+.java-script-logo {
+  display: inline;
+  margin-left: -9px;
+  margin-top: -10px;
+}
+.responsive-logo {
+  display: inline;
+  margin-left: -5px;
+}
+.react-logo {
+  display: inline;
+  margin-left: -5px;
+}
+.up-level {
+}
+.down-level {
+  opacity: 0.5;
+  margin-left: -5px;
+}
 .navbar {
   margin-left: 0px;
 }
