@@ -428,3 +428,47 @@ img {
     width: 55%;
   }
 }
+
+@media (max-width: 391px) {
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .main-logo {
+    display: block;
+    text-align: center;
+    max-width: 80%;
+    margin-left: 20px;
+  }
+  h4 {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .interaction {
+    border: none;
+    margin: 10px 45px;
+    padding: 5px 5px;
+  }
+  .options-links {
+    margin: 5px 5px 5px 5px;
+  }
+
+  .yes-about-link {
+    font-size: 20px;
+  }
+
+  .no-about-link {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .contact-links {
+    font-size: 18px;
+  }
+}
