@@ -115,21 +115,6 @@ img {
   border-radius: 10px;
 }
 
-.facts-list {
-  list-style: none;
-  font-size: 16px;
-  font-family: var(--font-family-brand);
-  color: var(--secondary-color);
-  margin-bottom: 5px;
-  opacity: 0.95;
-  line-height: 1.8;
-  margin-left: 20px;
-  letter-spacing: 0.1em;
-}
-
-.fa-caret-right {
-  opacity: 0.95;
-}
 .coding-skills-bar {
   list-style: none;
   font-size: 16px;
@@ -148,7 +133,21 @@ img {
   text-align: right;
   margin-right: 20px;
 }
+.facts-list {
+  list-style: none;
+  font-size: 16px;
+  font-family: var(--font-family-brand);
+  color: var(--secondary-color);
+  margin-bottom: 5px;
+  opacity: 0.95;
+  line-height: 1.8;
+  margin-left: 20px;
+  letter-spacing: 0.1em;
+}
 
+.fa-caret-right {
+  opacity: 0.95;
+}
 .courses-list {
   list-style: none;
   font-size: 16px;
@@ -321,6 +320,12 @@ img {
   h4 {
     font-size: 18px;
   }
+  .h4-bigger {
+    font-size: 24px;
+  }
+  h5 {
+    margin-bottom: 30px;
+  }
   .interaction {
     margin: 10px 45px;
     padding: 5px 5px;
@@ -343,6 +348,27 @@ img {
   .contact-links {
     font-size: 28px;
   }
+  .coding-skills-bar {
+    font-size: 14px;
+  }
+  .coding-skills-dots {
+    font-size: 14px;
+  }
+  .facts-list {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  .courses-list {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .technology-list {
+    margin-bottom: 10px;
+  }
+  .fa-bootstrap {
+    font-size: 58px;
+  }
 }
 
 @media (max-width: 520px) {
@@ -363,49 +389,8 @@ img {
   h4 {
     font-size: 14px;
   }
-  .interaction {
-    border: none;
-    margin: 10px 45px;
-    padding: 5px 5px;
-  }
-  .options-links {
-    margin: 5px 5px 5px 5px;
-  }
-
-  .yes-about-link {
-    font-size: 20px;
-  }
-
-  .no-about-link {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 18px;
-  }
-  .contact-links {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 391px) {
-  h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
-  }
-  h2 {
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .main-logo {
-    display: block;
-    text-align: center;
-    max-width: 80%;
-    margin-left: 20px;
-  }
-  h4 {
-    font-size: 14px;
-    margin-top: 20px;
+  .h4-bigger {
+    font-size: 22px;
   }
   .interaction {
     border: none;
@@ -427,6 +412,19 @@ img {
     font-size: 18px;
   }
   .contact-links {
-    font-size: 18px;
+    font-size: 26px;
+  }
+  .coding-skills-bar {
+    font-size: 13px;
+  }
+  .coding-skills-dots {
+    font-size: 13px;
+  }
+
+  .fa-bootstrap {
+    font-size: 52px;
+  }
+  .technology-logo {
+    width: 55%;
   }
 }
