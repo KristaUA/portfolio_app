@@ -71,7 +71,7 @@ h4 {
 }
 .h4-bigger {
   font-size: 30px;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-bottom: 0px;
   opacity: 0.95;
   color: var(--primary-color);
@@ -89,8 +89,8 @@ h5 {
   max-width: 100%;
 }
 .container {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .logo {
   max-width: 90%;
@@ -225,14 +225,17 @@ img {
 }
 .java-script-logo {
   display: inline;
-  margin-left: -8px;
+  margin-left: 0px;
   margin-top: -10px;
+  width: 15%;
 }
 .responsive-logo {
   display: inline;
+  width: 15%;
 }
 .react-logo {
   display: inline;
+  width: 15%;
 }
 .up-level {
   color: var(--background-color);
@@ -265,6 +268,7 @@ img {
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 
 .question {
@@ -398,6 +402,7 @@ img {
   }
   h5 {
     margin-bottom: 30px;
+    margin-top: 30px;
   }
   .interaction {
     margin: 10px 45px;
@@ -467,7 +472,7 @@ img {
   }
   .interaction {
     border: none;
-    margin: 10px 45px;
+    margin: 10px 0px;
     padding: 5px 5px;
   }
   .options-links {
@@ -488,10 +493,10 @@ img {
     font-size: 26px;
   }
   .coding-skills-bar {
-    font-size: 13px;
+    font-size: 8px;
   }
   .coding-skills-dots {
-    font-size: 13px;
+    font-size: 8px;
   }
 
   .fa-bootstrap {
@@ -517,14 +522,14 @@ img {
     margin-bottom: 20px;
   }
   .coding-skills-bar {
-    font-size: 12px;
+    font-size: 9px;
   }
   .coding-skills-dots {
-    font-size: 12px;
+    font-size: 9px;
   }
   .facts-list {
     font-size: 12px;
-    margin-left: 5px;
+    margin-left: 0px;
     letter-spacing: 0.1em;
   }
   .courses-list {
@@ -533,8 +538,13 @@ img {
   .fa-bootstrap {
     font-size: 40px;
   }
+  .interaction {
+    border: none;
+    margin: 0px 0px;
+    padding: 0px 0px;
+  }
 }
-@media (max-width: 467px) {
+@media (max-width: 390px) {
   h1 {
     font-size: 28px;
     margin-bottom: 10px;
@@ -552,7 +562,7 @@ img {
     margin-left: 20px;
   }
   h4 {
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 20px;
   }
   h5 {
@@ -562,9 +572,10 @@ img {
   }
   .interaction {
     border: none;
-    margin: 10px 45px;
-    padding: 5px 5px;
+    margin: 0px 0px;
+    padding: 0px 0px;
   }
+
   .options-links {
     margin: 5px 5px 5px 5px;
   }
@@ -584,7 +595,7 @@ img {
     margin-top: 15px;
   }
   .h4-bigger {
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 15px;
   }
   .contact-links {
@@ -595,13 +606,22 @@ img {
     line-height: 1.8;
     letter-spacing: 0;
   }
+  .java-script-logo {
+    display: inline;
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+  .responsive-logo {
+    display: inline;
+    width: 5%;
+  }
   .coding-skills-dots {
     font-size: 10px;
     margin-right: 8px;
   }
   .facts-list {
     font-size: 10px;
-    margin-left: 5px;
+    margin-left: -5px;
     letter-spacing: 0.1em;
   }
   .courses-list {
